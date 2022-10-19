@@ -10,7 +10,7 @@ const Home = () => {
                 <h2> Hi, My name is James Bond</h2>
                 <div className="prompt">
                     <p> 
-                        software devloper
+                    I am just a man who love to write clean, simple and high quality code.
                     </p>
                     <IconGithub/>
                     <IconEmail/>
