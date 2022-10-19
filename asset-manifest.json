@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/micro-app-portfolio/static/css/main.92ff71cf.css",
-    "main.js": "/micro-app-portfolio/static/js/main.d1abe958.js",
+    "main.css": "/micro-app-portfolio/static/css/main.85c3d62c.css",
+    "main.js": "/micro-app-portfolio/static/js/main.75e65664.js",
     "static/js/787.243f4b97.chunk.js": "/micro-app-portfolio/static/js/787.243f4b97.chunk.js",
+    "static/media/project-exchange.png": "/micro-app-portfolio/static/media/project-exchange.1357e8695d76b0162715.png",
+    "static/media/project-calculator.png": "/micro-app-portfolio/static/media/project-calculator.6f6b8e2413fd2edccb68.png",
+    "static/media/project-quiz.png": "/micro-app-portfolio/static/media/project-quiz.8bfbb8a5cc64f7776b81.png",
     "index.html": "/micro-app-portfolio/index.html",
-    "main.92ff71cf.css.map": "/micro-app-portfolio/static/css/main.92ff71cf.css.map",
-    "main.d1abe958.js.map": "/micro-app-portfolio/static/js/main.d1abe958.js.map",
+    "main.85c3d62c.css.map": "/micro-app-portfolio/static/css/main.85c3d62c.css.map",
+    "main.75e65664.js.map": "/micro-app-portfolio/static/js/main.75e65664.js.map",
     "787.243f4b97.chunk.js.map": "/micro-app-portfolio/static/js/787.243f4b97.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92ff71cf.css",
-    "static/js/main.d1abe958.js"
+    "static/css/main.85c3d62c.css",
+    "static/js/main.75e65664.js"
   ]
 }
