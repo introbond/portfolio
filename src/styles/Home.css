@@ -32,14 +32,16 @@
     color: whitesmoke;
 }
 .skills {
-    font-size: 35px;
+  margin: 10px;
+    font-size: 20px;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-.skills h1 {
+.skills h3 {
+    font-size: 40px;
     color: #3e497a;
 }
 .skills .list {
@@ -67,4 +69,7 @@
   .skills h2 {
     font-size: 30px;
   }
+}
+.item {
+  margin-bottom: 15px;
 }

@@ -6,7 +6,7 @@ class skill {
         this.topic = topic;
     }
 }
-
+// All topic = language, backend, frontend, database, os, tools, automation
 export const SkillList = [
     // ========== Programming Language ==========
     new skill(
