@@ -9,12 +9,21 @@ const ProjectDisplay = () => {
 
     return (
         <div className="project">
-            <h1> {project.name} </h1>
-            <img src={project.image}/>
-            <p>
-                <b> STACKS: </b> 
-                {project.description}
-            </p>
+            <img src={project.image} alt ={project.name}/>
+            <ul>
+                <li>
+                    <p> <b> Description: </b> {project.description} </p>
+                </li>
+                <li>
+                    <p> <b> Language: </b> {project.language} </p>
+                </li>
+                <li>
+                    <p> <b> Tools: </b> {project.tools} </p>
+                </li>
+                <li>
+                    <p> <b> Note to self: </b> {project.note} </p>
+                </li>
+            </ul>
         </div>
     )
 }

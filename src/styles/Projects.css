@@ -27,8 +27,12 @@
   margin: 40px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .projectItem:hover {
+  transform: scale(1.02);
+  overflow: hidden;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in;
 }
@@ -42,7 +46,24 @@
   background-size: cover;
 }
 .projectItem h1 {
-  font-size: 25px;
+  font-size: 22px;
+}
+.projectItem button {
+  margin-right: 10px;
+  height: 30px;
+  width: auto;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  background: #3e497a;
+  color: #fff;
+}
+.projectItem button:hover {
+  filter: brightness(110%);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
 }
 @media only screen and (max-width: 1300px) {
   .projectList {
@@ -62,21 +83,4 @@
     width: 300px;
     height: 300px;
   }
-}
-
-button {
-  margin-right: 15px;
-  min-height: 30px;
-  font-size: 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  outline: none;
-  background: #3e497a;
-  color: #fff;
-}
-button:hover {
-  filter: brightness(110%);
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
-  transition: 0.3s ease-in;
 }

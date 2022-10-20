@@ -10,7 +10,7 @@ const Projects = () => {
             <h1> Projects </h1>
             <div className="projectList">
                 {ProjectList.map((item, index) => {
-                    return <ProjectItem key={index} id={index} name={item.name} image={item.image} url={item.url} source={item.source}/>
+                    return <ProjectItem key={index} id={index} {...item}/>
                 })}
             </div>
         </div>
