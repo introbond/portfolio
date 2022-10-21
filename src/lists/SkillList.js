@@ -184,6 +184,12 @@ export const SkillList = [
         ),
     // ========== Automation Stuff ==========
     new skill(
+        "Arduino", 
+        "https://www.vectorlogo.zone/logos/arduino/arduino-icon.svg", 
+        "https://www.arduino.cc/", 
+        "automation", 
+        ),
+    new skill(
         "Rockwell", 
         "https://www.rockwellautomation.com/content/dam/rockwell-automation/sites/images/logos/2019_Logo_rgb_RA_Bug-LeftText_color.svg", 
         "https://www.rockwellautomation.com/en-us/tools/software-subscriptions-updated.html", 
@@ -193,12 +199,6 @@ export const SkillList = [
         "Aveva", 
         "https://www.aveva.com/content/experience-fragments/aveva/en/site/header-2/master/_jcr_content/root/responsivegrid/globalheader/logo.coreimg.svg/1655394323761/header-logo.svg", 
         "https://www.aveva.com/en/solutions/operations/operations-control-hmi/", 
-        "automation", 
-        ),
-    new skill(
-        "Arduino", 
-        "https://www.vectorlogo.zone/logos/arduino/arduino-icon.svg", 
-        "https://www.arduino.cc/", 
         "automation", 
         ),
     ]
