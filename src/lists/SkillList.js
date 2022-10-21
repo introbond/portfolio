@@ -35,9 +35,27 @@ export const SkillList = [
         "backend", 
         ),
     new skill(
+        "Nodemon", 
+        "https://www.vectorlogo.zone/logos/nodemonio/nodemonio-ar21.svg", 
+        "https://nodemon.io/", 
+        "backend", 
+        ),
+    new skill(
+        "SocketIO", 
+        "https://www.vectorlogo.zone/logos/socketio/socketio-icon.svg", 
+        "https://socket.io/", 
+        "backend", 
+        ),
+    new skill(
         "Postman", 
         "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg", 
         "https://postman.com", 
+        "backend", 
+        ),
+    new skill(
+        "json", 
+        "https://www.vectorlogo.zone/logos/json/json-icon.svg", 
+        "https://www.json.org/json-en.html", 
         "backend", 
         ),
     // ========== Frontend ==========
@@ -46,7 +64,7 @@ export const SkillList = [
         "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg", 
         "https://reactjs.org/", 
         "frontend", 
-        ),
+    ),
     new skill(
         "HTML", 
         "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg", 
@@ -90,6 +108,12 @@ export const SkillList = [
         "https://www.mysql.com/", 
         "database", 
         ),
+    new skill(
+        "SQLserver", 
+        "https://static.cdnlogo.com/logos/m/62/microsoft-sql-server.svg", 
+        "https://www.microsoft.com/en-us/sql-server/sql-server-downloads", 
+        "database", 
+        ),
     // ========== OS ==========
     new skill(
         "Ubuntu", 
@@ -111,6 +135,12 @@ export const SkillList = [
         "tools", 
         ),
     new skill(
+        "GitHub", 
+        "https://www.vectorlogo.zone/logos/github/github-icon.svg", 
+        "https://github.com/", 
+        "tools", 
+        ),
+    new skill(
         "Docker", 
         "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg", 
         "https://www.docker.com/", 
@@ -126,6 +156,18 @@ export const SkillList = [
         "Nginx", 
         "https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg", 
         "https://www.nginx.com", 
+        "tools", 
+        ),
+    new skill(
+        "Apache", 
+        "https://www.vectorlogo.zone/logos/apache/apache-icon.svg", 
+        "https://www.apache.org/", 
+        "tools", 
+        ),
+    new skill(
+        "Xampp", 
+        "https://icons.iconarchive.com/icons/papirus-team/papirus-apps/64/xampp-icon.png", 
+        "https://www.apachefriends.org/", 
         "tools", 
         ),
     new skill(
@@ -145,6 +187,12 @@ export const SkillList = [
         "Rockwell", 
         "https://www.rockwellautomation.com/content/dam/rockwell-automation/sites/images/logos/2019_Logo_rgb_RA_Bug-LeftText_color.svg", 
         "https://www.rockwellautomation.com/en-us/tools/software-subscriptions-updated.html", 
+        "automation", 
+        ),
+    new skill(
+        "Aveva", 
+        "https://www.aveva.com/content/experience-fragments/aveva/en/site/header-2/master/_jcr_content/root/responsivegrid/globalheader/logo.coreimg.svg/1655394323761/header-logo.svg", 
+        "https://www.aveva.com/en/solutions/operations/operations-control-hmi/", 
         "automation", 
         ),
     new skill(

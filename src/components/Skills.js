@@ -1,8 +1,8 @@
 import React from "react";
-import SkillItem from "../components/SkillItem";
+import SkillItem from "./SkillItem";
 import { SkillList } from "../lists/SkillList";
 import "../styles/Skills.css";
-
+    // All topic = language, backend, frontend, database, os, tools, automation
 const Skills = ({topic}) => {    
     const skillsTopicFilter = SkillList.filter((skill)=> { 
         return skill.topic === topic 

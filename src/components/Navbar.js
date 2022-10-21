@@ -20,6 +20,7 @@ const Navbar = () => {
             </div>
             <div className="links">
                 <Link to="/micro-app-portfolio/"> Home </Link>
+                <Link to="/micro-app-portfolio/skills"> Skills </Link>
                 <Link to="/micro-app-portfolio/projects"> Projects </Link>
                 <Link to="/micro-app-portfolio/experience"> Experience </Link>
             </div>

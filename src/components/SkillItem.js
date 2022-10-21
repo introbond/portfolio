@@ -4,6 +4,7 @@ const SkillItem = ({ image, name, url}) => {
     const openInNewTab = (e) => {
         window.open(e, '_blank', 'noopener,noreferrer');
     };
+    
     return (
         <div className="skill-icon">
             <div>

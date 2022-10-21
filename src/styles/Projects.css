@@ -34,7 +34,7 @@
   transform: scale(1.02);
   overflow: hidden;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
-  transition: 0.3s ease-in;
+  transition: 0.2s ease-in;
 }
 .projectItem .bgImage {
   border-top-left-radius: 15px;

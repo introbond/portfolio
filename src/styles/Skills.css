@@ -24,12 +24,12 @@
     border-radius: 50%;
     border-style: none;
     background-color: transparent;
-    width: 75px;
+    width: 70px;
     height: auto;
 }
 .skill-icon  button:hover {
     filter: brightness(110%);
-    transition: 0.3s ease-in;
+    transition: 0.1s ease-in;
     transform: scale(1.1);
 }
 @media only screen and (max-width: 1300px) {
