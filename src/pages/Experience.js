@@ -3,7 +3,7 @@ import { VerticalTimeline, VerticalTimelineElement} from "react-vertical-timelin
 import "react-vertical-timeline-component/style.min.css";
 import IconSchool from "@material-ui/icons/School"
 import IconWork from "@material-ui/icons/Work"
-
+import IconInt  from "@material-ui/icons/LocalLibraryOutlined"
 const Experience = () => {
     return (
         <div className="experience">
@@ -53,12 +53,12 @@ const Experience = () => {
                 <VerticalTimelineElement 
                     className="vertical-timeline-elemt--education"
                     date="Jan 2022 - Present"
-                    icon={<IconWork />}
-                    iconStyle={{ background: "royalblue", color: "#fff"}}
+                    icon={<IconInt />}
+                    iconStyle={{ background: "#3e497a", color: "#fff"}}
                 >
-                    <h3 className="vertical-timeline-element-title"> Software development self learning </h3>
+                    <h3 className="vertical-timeline-element-title"> Self-learning: Software Development </h3>
                     <p> Q2: </p>
-                    <p> &emsp; - Traditional system programming practice JS. </p>
+                    <p> &emsp; - Traditional system programming practice (JS ES6). </p>
                     <p> &emsp; - Laser focus on data structure & algorithms. </p>
                     <p> &emsp; - Blockchain's API mobile app monitoring using Google cloud. </p>
                     <p> Q3: </p>

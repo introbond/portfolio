@@ -1,4 +1,7 @@
 .projects {
+  margin-top: 10px;
+  color: #3e497a;
+  font-size: 20px;
   width: 100%;
   height: auto;
   display: flex;
@@ -7,8 +10,8 @@
   flex-direction: column;
 }
 .projects .projectTitle {
-  text-align: center;
   color: #3e497a;
+  text-align: center;
   font-size: 60px;
   font-weight: bolder;
 }

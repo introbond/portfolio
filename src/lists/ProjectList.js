@@ -3,6 +3,7 @@ import ImageExchange from "../assets/project-exchange.png"
 import ImageCalculator from "../assets/project-calculator.png"
 import ImageContries from "../assets/project-contries-search.png"
 import ImageSlideShow from "../assets/project-cir.png"
+import ImageTodolist from "../assets/project-todolist.png"
 
 class project {
     constructor(name, image, description, url, source, language, tools, note) {
@@ -39,7 +40,7 @@ export const ProjectList = [
         `Learn about how to fetching data from public API.`
         ),
     new project(
-        "Simple Calculator", 
+        "Calculator", 
         ImageCalculator, 
         "Simple calculator web application", 
         "https://introbond.github.io/micro-app-simple-calculator/",
@@ -67,5 +68,15 @@ export const ProjectList = [
         "JavaScript",
         "ReactJS",
         `Just another React hooks practice.`
+        ),
+    new project(
+        "To-Do List", 
+        ImageTodolist, 
+        "Simple to-do list web application", 
+        "https://introbond.github.io/micro-app-todolist/",
+        "https://github.com/introbond/micro-app-todolist/tree/main",
+        "JavaScript",
+        "ReactJS",
+        `Learn about how to CRUD with React.`
         ),
 ]
