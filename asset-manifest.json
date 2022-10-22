@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/micro-app-portfolio/static/css/main.ce08d737.css",
-    "main.js": "/micro-app-portfolio/static/js/main.8263d755.js",
+    "main.js": "/micro-app-portfolio/static/js/main.f03973a5.js",
     "static/js/787.6633d857.chunk.js": "/micro-app-portfolio/static/js/787.6633d857.chunk.js",
     "static/media/project-contries-search.png": "/micro-app-portfolio/static/media/project-contries-search.c8ce1d7543fd077b9774.png",
     "static/media/project-cir.png": "/micro-app-portfolio/static/media/project-cir.dfd3744bd714678ee5f4.png",
@@ -11,11 +11,11 @@
     "static/media/project-quiz.png": "/micro-app-portfolio/static/media/project-quiz.8bfbb8a5cc64f7776b81.png",
     "index.html": "/micro-app-portfolio/index.html",
     "main.ce08d737.css.map": "/micro-app-portfolio/static/css/main.ce08d737.css.map",
-    "main.8263d755.js.map": "/micro-app-portfolio/static/js/main.8263d755.js.map",
+    "main.f03973a5.js.map": "/micro-app-portfolio/static/js/main.f03973a5.js.map",
     "787.6633d857.chunk.js.map": "/micro-app-portfolio/static/js/787.6633d857.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce08d737.css",
-    "static/js/main.8263d755.js"
+    "static/js/main.f03973a5.js"
   ]
 }
