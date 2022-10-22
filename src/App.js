@@ -10,7 +10,7 @@ import Experience from './pages/Experience';
 function App() {
     return (
         <div className="App">
-            <Router basename='/micro-app-portfolio'>
+            <Router basename='/portfolio'>
                 <Navbar/>
                 <Routes>
                     <Route path='/' element={<Home/>}/>

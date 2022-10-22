@@ -11,7 +11,7 @@ const ProjectItem = ({ image, name, id, url, source}) => {
         <div className="projectItem">
             <div style={{backgroundImage: `url(${image})`}} className="bgImage" />
             <h1> {name} </h1>
-            <button onClick={() => navigate("/micro-app-portfolio/project/" + id)}> Detail </button>
+            <button onClick={() => navigate("/project/" + id)}> Detail </button>
             <button onClick={() => openInNewTab(url)}> Demo </button>
             <button onClick={() => openInNewTab(source)}> GitHub </button>
         </div>

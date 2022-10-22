@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { AiOutlineMenu, AiFillHome } from "react-icons/ai";
+import ReorderIcon from "@material-ui/icons/Reorder"
 
 import "../styles/Navbar.css";
 
@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="navbar" id={expandNavbar ? "open" : "close"}>
             <div className="toggleButton">
                 <button onClick={() => {setExpandNavbar((prev) => !prev)}}>
-                    <AiOutlineMenu/>  
+                <ReorderIcon/>    
                 </button>          
             </div>
             <div className="links">
