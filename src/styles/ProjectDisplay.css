@@ -1,0 +1,23 @@
+.project {
+  width: 100%;
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.project img {
+  width: 700px;
+  border-radius: 10px;
+}
+.project p {
+  font-size: 25px;
+  color: #3e497a;
+}
+.project svg {
+  font-size: 50px;
+  color: #3e497a;
+}
+ul {
+  list-style-type: none;
+}
