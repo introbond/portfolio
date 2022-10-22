@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/micro-app-portfolio/static/css/main.ad2afd55.css",
-    "main.js": "/micro-app-portfolio/static/js/main.40f9ba73.js",
-    "static/js/787.6633d857.chunk.js": "/micro-app-portfolio/static/js/787.6633d857.chunk.js",
-    "static/media/project-contries-search.png": "/micro-app-portfolio/static/media/project-contries-search.c8ce1d7543fd077b9774.png",
-    "static/media/project-cir.png": "/micro-app-portfolio/static/media/project-cir.dfd3744bd714678ee5f4.png",
-    "static/media/project-todolist.png": "/micro-app-portfolio/static/media/project-todolist.46af7e552402e8a43862.png",
-    "static/media/project-exchange.png": "/micro-app-portfolio/static/media/project-exchange.1357e8695d76b0162715.png",
-    "static/media/project-calculator.png": "/micro-app-portfolio/static/media/project-calculator.6f6b8e2413fd2edccb68.png",
-    "static/media/project-quiz.png": "/micro-app-portfolio/static/media/project-quiz.8bfbb8a5cc64f7776b81.png",
-    "index.html": "/micro-app-portfolio/index.html",
-    "main.ad2afd55.css.map": "/micro-app-portfolio/static/css/main.ad2afd55.css.map",
-    "main.40f9ba73.js.map": "/micro-app-portfolio/static/js/main.40f9ba73.js.map",
-    "787.6633d857.chunk.js.map": "/micro-app-portfolio/static/js/787.6633d857.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.ad2afd55.css",
+    "main.js": "/portfolio/static/js/main.a0aac20c.js",
+    "static/js/787.6633d857.chunk.js": "/portfolio/static/js/787.6633d857.chunk.js",
+    "static/media/project-contries-search.png": "/portfolio/static/media/project-contries-search.c8ce1d7543fd077b9774.png",
+    "static/media/project-cir.png": "/portfolio/static/media/project-cir.dfd3744bd714678ee5f4.png",
+    "static/media/project-todolist.png": "/portfolio/static/media/project-todolist.46af7e552402e8a43862.png",
+    "static/media/project-exchange.png": "/portfolio/static/media/project-exchange.1357e8695d76b0162715.png",
+    "static/media/project-calculator.png": "/portfolio/static/media/project-calculator.6f6b8e2413fd2edccb68.png",
+    "static/media/project-quiz.png": "/portfolio/static/media/project-quiz.8bfbb8a5cc64f7776b81.png",
+    "index.html": "/portfolio/index.html",
+    "main.ad2afd55.css.map": "/portfolio/static/css/main.ad2afd55.css.map",
+    "main.a0aac20c.js.map": "/portfolio/static/js/main.a0aac20c.js.map",
+    "787.6633d857.chunk.js.map": "/portfolio/static/js/787.6633d857.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad2afd55.css",
-    "static/js/main.40f9ba73.js"
+    "static/js/main.a0aac20c.js"
   ]
 }
