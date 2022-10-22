@@ -10,14 +10,14 @@ import Experience from './pages/Experience';
 function App() {
     return (
         <div className="App">
-            <Router>
-                <Navbar />
+            <Router basename='/micro-app-portfolio'>
+                <Navbar/>
                 <Routes>
-                    <Route path='/micro-app-portfolio/' element={<Home/>}/>
-                    <Route path='/micro-app-portfolio/skills' element={<SkillsDisplay/>}/>
-                    <Route path='/micro-app-portfolio/projects' element={<Projects/>}/>
-                    <Route path='/micro-app-portfolio/project/:id' element={<ProjectDisplay/>}/>
-                    <Route path='/micro-app-portfolio/experience' element={<Experience/>}/>
+                    <Route path='/' element={<Home/>}/>
+                    <Route path='/skills' element={<SkillsDisplay/>}/>
+                    <Route path='/projects' element={<Projects/>}/>
+                    <Route path='/project/:id' element={<ProjectDisplay/>}/>
+                    <Route path='/experience' element={<Experience/>}/>
                 </Routes>
             </Router>
         </div>

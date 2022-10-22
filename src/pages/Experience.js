@@ -20,7 +20,7 @@ const Experience = () => {
                     className="vertical-timeline-elemt--education"
                     date="Feb 1994"
                     icon={<IconBorn />}
-                    iconStyle={{ background: "#3e497a", color: "#fff"}}
+                    iconStyle={{background: "#3e497a", color: "#fff"}}
                 >
                     <h3 className="vertical-timeline-element-title"> Born in Ubon Rachatani, Thailand </h3>
                     <p> Age: {age} years old</p>
@@ -30,7 +30,7 @@ const Experience = () => {
                     className="vertical-timeline-elemt--education"
                     date="2009 - 2012"
                     icon={<IconSchool />}
-                    iconStyle={{ background: "#3e497a", color: "#fff"}}
+                    iconStyle={{background: "#3e497a", color: "#fff"}}
                 >
                     <h3 className="vertical-timeline-element-title"> Benchama Maharat Ubon Ratchatani </h3>
                     <p> High School Diploma: Sci-Math</p>
@@ -40,7 +40,7 @@ const Experience = () => {
                     className="vertical-timeline-elemt--education"
                     date="2012 - 2016"
                     icon={<IconSchool />}
-                    iconStyle={{ background: "#3e497a", color: "#fff"}}
+                    iconStyle={{background: "#3e497a", color: "#fff"}}
                 >
                     <h3 className="vertical-timeline-element-title"> King Mongkut's Institute of Technology Ladkrabang </h3>
                     <p> Bachelor's Degree: Automation Engineering </p>
@@ -50,7 +50,7 @@ const Experience = () => {
                     className="vertical-timeline-elemt--education"
                     date="Jul 2016 - Jan 2022 (5 years 7 months)"
                     icon={<IconWork />}
-                    iconStyle={{ background: "royalblue", color: "#fff"}}
+                    iconStyle={{background: "royalblue", color: "#fff"}}
                 >
                     <h3 className="vertical-timeline-element-title"> Synergetech Co., Ltd.,Nonthaburi, Thailand </h3>
                     <p> Role: Automation System Engineer </p>
@@ -72,7 +72,7 @@ const Experience = () => {
                     className="vertical-timeline-elemt--education"
                     date="Jan 2022 - Present"
                     icon={<IconInt />}
-                    iconStyle={{ background: "#3e497a", color: "#fff"}}
+                    iconStyle={{background: "#3e497a", color: "#fff"}}
                 >
                     <h3 className="vertical-timeline-element-title"> Self-learning: Software Development </h3>
                     <p> Q2: </p>

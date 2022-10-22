@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import "../styles/Navbar.css"
-import ReorderIcon from "@material-ui/icons/Reorder"
+import { AiOutlineMenu, AiFillHome } from "react-icons/ai";
+
+import "../styles/Navbar.css";
 
 const Navbar = () => {
     const [expandNavbar, setExpandNavbar] = useState(false);
@@ -15,14 +16,14 @@ const Navbar = () => {
         <div className="navbar" id={expandNavbar ? "open" : "close"}>
             <div className="toggleButton">
                 <button onClick={() => {setExpandNavbar((prev) => !prev)}}>
-                    <ReorderIcon/>  
+                    <AiOutlineMenu/>  
                 </button>          
             </div>
             <div className="links">
-                <Link to="/micro-app-portfolio/"> Home </Link>
-                <Link to="/micro-app-portfolio/skills"> Skills </Link>
-                <Link to="/micro-app-portfolio/projects"> Projects </Link>
-                <Link to="/micro-app-portfolio/experience"> Experience </Link>
+                <Link to="/"> Home </Link>
+                <Link to="/skills"> Skills </Link>
+                <Link to="/projects"> Projects </Link>
+                <Link to="/experience"> Experience </Link>
             </div>
         </div>
     )
