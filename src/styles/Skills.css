@@ -17,6 +17,9 @@
 .skill-icon {
     margin: 5px;
     background: none;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 .skill-icon button {
     cursor: pointer;
@@ -58,3 +61,11 @@
         width: 100%;
     }
 }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+  }

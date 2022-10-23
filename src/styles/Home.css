@@ -19,6 +19,9 @@
   width: 220px;
   height: 220px;
   border-radius: 50%;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -94,4 +97,12 @@
   .socialMedia svg {
     font-size: 20px;
   }
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
 }
