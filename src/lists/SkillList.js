@@ -1,3 +1,5 @@
+import plc from "../assets/skill-plc.svg";
+
 class skill {
     constructor(name, image, url, topic) {
         this.name = name;
@@ -21,6 +23,12 @@ export const SkillList = [
         "https://www.typescriptlang.org/", 
         "language", 
         ),
+    new skill(
+        "PLC", 
+        plc, 
+        "https://en.wikipedia.org/wiki/Programmable_logic_controller#Programming", 
+        "language", 
+        ),
     // ========== Backend ==========
     new skill(
         "NodeJS", 
@@ -32,12 +40,6 @@ export const SkillList = [
         "ExpressJS", 
         "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg", 
         "https://expressjs.com", 
-        "backend", 
-        ),
-    new skill(
-        "Nodemon", 
-        "https://www.vectorlogo.zone/logos/nodemonio/nodemonio-ar21.svg", 
-        "https://nodemon.io/", 
         "backend", 
         ),
     new skill(
@@ -123,8 +125,14 @@ export const SkillList = [
         ),
     new skill(
         "RaspberryPiOS", 
-        " https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-ar21.svg", 
+        "https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-ar21.svg", 
         "https://www.raspberrypi.com/software/", 
+        "os", 
+        ),
+    new skill(
+        "Windows", 
+        "https://www.vectorlogo.zone/logos/microsoft/microsoft-ar21.svg", 
+        "https://www.microsoft.com/en-us/windows", 
         "os", 
         ),
     // ========== DevOp & Other Tools ==========
@@ -153,12 +161,6 @@ export const SkillList = [
         "tools", 
         ),
     new skill(
-        "Nginx", 
-        "https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg", 
-        "https://www.nginx.com", 
-        "tools", 
-        ),
-    new skill(
         "Apache", 
         "https://www.vectorlogo.zone/logos/apache/apache-icon.svg", 
         "https://www.apache.org/", 
@@ -174,6 +176,12 @@ export const SkillList = [
         "Heroku", 
         "https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg", 
         "https://heroku.com", 
+        "tools", 
+        ),
+    new skill(
+        "Netlify", 
+        "https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg", 
+        "https://www.netlify.com/", 
         "tools", 
         ),
     new skill(

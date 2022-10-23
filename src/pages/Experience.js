@@ -1,11 +1,11 @@
 import React from "react";
 import { VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import IconSchool from "@material-ui/icons/School"
-import IconWork from "@material-ui/icons/Work"
-import IconInt  from "@material-ui/icons/LocalLibraryOutlined"
-import { IoMdPulse } from "react-icons/io"
-import { VscDebugContinue } from "react-icons/vsc"
+import IconSchool from "@material-ui/icons/School";
+import IconWork from "@material-ui/icons/Work";
+import IconInt  from "@material-ui/icons/LocalLibraryOutlined";
+import { IoMdPulse } from "react-icons/io";
+import { VscDebugContinue } from "react-icons/vsc";
 
 const Experience = () => {
     const born = new Date("02/03/1994");  
@@ -55,16 +55,16 @@ const Experience = () => {
                 >
                     <h3 className="vertical-timeline-element-title"> Synergetech Co., Ltd.,Nonthaburi, Thailand </h3>
                     <p> Role: Automation System Engineer </p>
-                    <p> Responsibilities: Designed, developed, debugged and delivered automation projects (especially automated batch control system)</p>
+                    <p> Responsibilities: Designed, developed, debugged & delivered automation projects (especially automated batch control system)</p>
                     <p> &emsp; - PLC (Low code platform for device controller) </p>
                     <p> &emsp; - HMI & SCADA (UI for industrial automation stuff) </p>
                     <p> &emsp; - Database for ERP communication purpose</p>
-                    <p> &emsp; - Implement analog signals, services, APIs, devices and other 3rd party integrations (by any protocol of choice)</p>
-                    <p> Product Speacialist: </p>
+                    <p> &emsp; - Implement analog signals, services, APIs, devices & other 3rd party integrations (by any protocol of choice)</p>
+                    <p> Product Specialist: </p>
                     <p> &emsp; - Rockwell Automation </p>
                     <p> &emsp; - Schneider Electric Automation: Unity Pro series </p>
                     <p> &emsp; - AVEVA: Wonderware SystemPlatform, InTouch & InBatch </p>
-                    <p> &emsp; - VMware: ESXi server edition </p>
+                    <p> &emsp; - VMware: Workstation & ESXi </p>
                 </VerticalTimelineElement>
                 
                 <VerticalTimelineElement 
@@ -77,12 +77,12 @@ const Experience = () => {
                     <p> Q2: </p>
                     <p> &emsp; - Traditional system programming practice. </p>
                     <p> &emsp; - Laser focus on logic, loop, data structure & algorithm. </p>
-                    <p> &emsp; - Blockchain's API mobile app monitoring using Google cloud. </p>
+                    <p> &emsp; - Built blockchain's API mobile app monitoring using Google cloud. </p>
                     <p> Q3: </p>
                     <p> &emsp; - Start using git & GitHub. </p>
                     <p> &emsp; - Start learning web development tools, libraries & frameworks.(JavaScript stack - TypeScript, React.js, Node.js) </p>
                     <p> Q4: </p>
-                    <p> &emsp; - Become an advance backend developer. </p>
+                    <p> &emsp; - Become the better backend developer. </p>
                     <p> &emsp; - Making more open source projects & keep learning. <VscDebugContinue/> </p>
                 </VerticalTimelineElement>
             </VerticalTimeline>

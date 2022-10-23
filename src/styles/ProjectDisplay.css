@@ -1,12 +1,13 @@
 .project {
   width: 100%;
-  height: calc(100vh - 80px);
+  height: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 .project img {
+  margin-top: 0;
   width: 700px;
   border-radius: 10px;
 }

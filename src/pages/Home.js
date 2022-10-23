@@ -14,14 +14,15 @@ const Home = () => {
         <div className="home">
             <div className="about">
                 <img src={ImageProfile} alt="profile"/>
-                <h2> Hi, My name is Puritat Chamart.</h2>
+                <h2> Hi, I am Puritat Chamart.</h2>
                 <div className="prompt">
-                    <p> I am just a man who loves to write <br/> clean, simple & high-quality code. </p>
+                    <p> I do open-source. </p>
+                    <p> Clean, simple & high-quality code <br/> has always sparked joy in my blood. </p>
                 </div>
                 <div className="socialMedia">
                     <Typewriter
                         options={{
-                            strings: ['GROWTH MINDSET', 'GRIT', 'MOTIVATION', 'SELF-ACTUALIZATION'],
+                            strings: ['GROWTH MINDSET', 'GRIT', 'SELF-ACTUALIZATION'],
                             autoStart: true,
                             loop: true,
                         }}

@@ -5,7 +5,7 @@ import "../styles/ProjectDisplay.css";
 
 const ProjectDisplay = () => {
     const { id } = useParams();
-    const project = ProjectList[id]
+    const project = ProjectList[id];
 
     return (
         <div className="project">

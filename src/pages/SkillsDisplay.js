@@ -1,5 +1,5 @@
 import React from "react";
-import Skills from "../components/Skills"
+import Skills from "../components/Skills";
 import "../styles/Home.css";
 
 const SkillsDisplay = () => {
