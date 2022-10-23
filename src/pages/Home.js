@@ -17,7 +17,7 @@ const Home = () => {
                 <h2> Hi, I am Puritat Chamart.</h2>
                 <div className="prompt">
                     <p> I do open-source. </p>
-                    <p> Clean, simple & high-quality code <br/> has always sparked joy in my blood. </p>
+                    <p> Clean, simple & high-quality code <br/> always sparks joy in my blood. </p>
                 </div>
                 <div className="socialMedia">
                     <Typewriter

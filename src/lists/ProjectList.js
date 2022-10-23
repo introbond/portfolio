@@ -50,9 +50,9 @@ export const ProjectList = [
         `Just a simple logic built with useState and JavaScript 'eval' trick.`
         ),
     new project(
-        "Countries Search & Filter", 
+        "Countries info", 
         ImageContries, 
-        "Search & filter countries data by name or capital name", 
+        "Fetch information from API then filter by country name or capital name", 
         "https://introbond.github.io/micro-app-contries-search-filter/",
         "https://github.com/introbond/micro-app-contries-search-filter/tree/main",
         "JavaScript",

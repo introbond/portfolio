@@ -5,7 +5,6 @@ import IconSchool from "@material-ui/icons/School";
 import IconWork from "@material-ui/icons/Work";
 import IconInt  from "@material-ui/icons/LocalLibraryOutlined";
 import { IoMdPulse } from "react-icons/io";
-import { VscDebugContinue } from "react-icons/vsc";
 
 const Experience = () => {
     const born = new Date("02/03/1994");  
@@ -58,7 +57,7 @@ const Experience = () => {
                     <p> Responsibilities: Designed, developed, debugged & delivered automation projects (especially automated batch control system)</p>
                     <p> &emsp; - PLC (Low code platform for device controller) </p>
                     <p> &emsp; - HMI & SCADA (UI for industrial automation stuff) </p>
-                    <p> &emsp; - Database for ERP communication purpose</p>
+                    <p> &emsp; - Database for ERP communication purposes</p>
                     <p> &emsp; - Implement analog signals, services, APIs, devices & other 3rd party integrations (by any protocol of choice)</p>
                     <p> Product Specialist: </p>
                     <p> &emsp; - Rockwell Automation </p>
@@ -83,7 +82,8 @@ const Experience = () => {
                     <p> &emsp; - Start learning web development tools, libraries & frameworks.(JavaScript stack - TypeScript, React.js, Node.js) </p>
                     <p> Q4: </p>
                     <p> &emsp; - Become the better backend developer. </p>
-                    <p> &emsp; - Making more open source projects & keep learning. <VscDebugContinue/> </p>
+                    <p> &emsp; - Pushing more open-source projects. </p>
+                    <p> &emsp; - Further down the road, keep learning.  </p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
         </div>
