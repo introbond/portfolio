@@ -8,6 +8,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .projects .projectTitle {
   color: #3e497a;
@@ -32,9 +35,6 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 .projectItem:hover {
   transform: scale(1.02);
