@@ -1,6 +1,5 @@
 import React from "react";
 import IconGithub from "@material-ui/icons/GitHub";
-import IconAward from "@material-ui/icons/EmojiEvents"
 import Typewriter from 'typewriter-effect';
 import "../styles/Home.css";
 import ImageProfile from "../assets/profile.jpg"
@@ -19,17 +18,16 @@ const Home = () => {
                     <p> I do open-source. </p>
                     <p> Clean, simple & high-quality code <br/> always sparks joy in my blood. </p>
                 </div>
-                <div className="socialMedia">
-                    <Typewriter
+                <Typewriter
                         options={{
                             strings: ['GROWTH MINDSET', 'GRIT', 'SELF-ACTUALIZATION'],
                             autoStart: true,
                             loop: true,
                         }}
                     />
-                    <IconAward onClick={() => openInNewTab('https://introbond.github.io/micro-app-cir-slide/')}/>
+                <div className="socialMedia">
                     <IconGithub onClick={() => openInNewTab('https://github.com/introbond')}/>
-                    <p> &copy; 2022 introbond </p>
+                    <p> &copy; JB </p>
                 </div> 
             </div>
         </div>

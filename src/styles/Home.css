@@ -6,7 +6,7 @@
 }
 .about {
     width: 100%;
-    height: calc(105vh - 20px);
+    height: calc(110vh - 10px);
     display: flex;
     flex-direction: column;
     justify-content: center;

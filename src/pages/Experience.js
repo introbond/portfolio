@@ -52,9 +52,9 @@ const Experience = () => {
                     icon={<IconWork />}
                     iconStyle={{background: "royalblue", color: "#fff"}}
                 >
-                    <h3 className="vertical-timeline-element-title"> Synergetech Co., Ltd.,Nonthaburi, Thailand </h3>
+                    <h3 className="vertical-timeline-element-title"> Synergetech Co., Ltd., Nonthaburi, Thailand </h3>
                     <p> Role: Automation System Engineer </p>
-                    <p> Responsibilities: Designed, developed, debugged & delivered automation projects (especially automated batch control system)</p>
+                    <p> Responsibilities: Designed, developed, debugged, deployed & delivered automation projects (especially automated batch control system)</p>
                     <p> &emsp; - PLC (Low code platform for device controller) </p>
                     <p> &emsp; - HMI & SCADA (UI for industrial automation stuff) </p>
                     <p> &emsp; - Database for ERP communication purposes</p>

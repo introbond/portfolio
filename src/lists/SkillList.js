@@ -60,6 +60,12 @@ export const SkillList = [
         "https://www.json.org/json-en.html", 
         "backend", 
         ),
+    new skill(
+        "jwt", 
+        "https://img.icons8.com/color/2x/java-web-token.png", 
+        "https://jwt.io/introduction", 
+        "backend", 
+        ),
     // ========== Frontend ==========
     new skill(
         "ReactJS", 
