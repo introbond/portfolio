@@ -4,6 +4,7 @@ import ImageCalculator from "../assets/project-calculator.png"
 import ImageContries from "../assets/project-contries-search.png"
 import ImageCloudinary from "../assets/project-cloudinary.png"
 import ImageTodolist from "../assets/project-todolist.png"
+import ImageCrypto from "../assets/project-hash.png"
 
 class project {
     constructor(name, image, description, url, source, language, tools, note) {
@@ -38,6 +39,16 @@ export const ProjectList = [
         "JavaScript",
         "ReactJS",
         `Learn about how to fetching data from public API.`
+        ),
+    new project(
+        "SHA256 Hashing service", 
+        ImageCrypto, 
+        "Simple SHA256 algorithm hashing function", 
+        "https://introbond-crypto-ui.onrender.com/",
+        "https://github.com/introbond/micro-app-crypto-ui",
+        "JavaScript",
+        "ExpressJS, EJS veiw engine",
+        `Learn how to deal crypto flow.`
         ),
     new project(
         "Calculator", 
