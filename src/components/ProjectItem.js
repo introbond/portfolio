@@ -13,7 +13,7 @@ const ProjectItem = ({ image, name, id, url, source}) => {
             <h1> {name} </h1>
             <button onClick={() => navigate("/project/" + id)}> Detail </button>
             <button onClick={() => openInNewTab(url)}> Demo </button>
-            <button onClick={() => openInNewTab(source)}> GitHub </button>
+            <button onClick={() => openInNewTab(source)}> Source </button>
         </div>
     )
 }

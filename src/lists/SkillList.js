@@ -1,4 +1,5 @@
 import plc from "../assets/skill-plc.svg";
+import cyclic from "../assets/skill-cyclic.png";
 
 class skill {
     constructor(name, image, url, topic) {
@@ -131,13 +132,13 @@ export const SkillList = [
         ),
     new skill(
         "RaspberryPiOS", 
-        "https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-ar21.svg", 
+        "https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg", 
         "https://www.raspberrypi.com/software/", 
         "os", 
         ),
     new skill(
         "Windows", 
-        "https://www.vectorlogo.zone/logos/microsoft/microsoft-ar21.svg", 
+        "https://www.vectorlogo.zone/logos/microsoft/microsoft-icon.svg", 
         "https://www.microsoft.com/en-us/windows", 
         "os", 
         ),
@@ -179,6 +180,12 @@ export const SkillList = [
         "tools", 
         ),
     new skill(
+        "Cyclic", 
+        cyclic, 
+        "https://www.cyclic.sh/", 
+        "tools", 
+        ),
+    new skill(
         "Heroku", 
         "https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg", 
         "https://heroku.com", 
@@ -196,6 +203,13 @@ export const SkillList = [
         "https://cloud.google.com", 
         "tools", 
         ),
+    new skill(
+        "Cloudinary", 
+        "https://brandeps.com/icon-download/C/Cloudinary-icon-vector-01.svg", 
+        "https://cloudinary.com/", 
+        "tools", 
+        ),
+        
     // ========== Automation Stuff ==========
     new skill(
         "Arduino", 
