@@ -1,13 +1,15 @@
-import ImageQuiz from "../assets/project-quiz.png"
-import ImageExchange from "../assets/project-exchange.png"
-import ImageCalculator from "../assets/project-calculator.png"
-import ImageContries from "../assets/project-contries-search.png"
-import ImageCloudinary from "../assets/project-cloudinary.png"
-import ImageTodolist from "../assets/project-todolist.png"
-import ImageCrypto from "../assets/project-hash.png"
-
+import ImageQuiz from "../assets/project-quiz.png";
+import ImageExchange from "../assets/project-exchange.png";
+import ImageCalculator from "../assets/project-calculator.png";
+import ImageContries from "../assets/project-contries-search.png";
+import ImageCloudinary from "../assets/project-cloudinary.png";
+import ImageTodolist from "../assets/project-todolist.png";
+import ImageCrypto from "../assets/project-hash.png";
+import ImageTimestamp from "../assets/project-timestamp.png";
+import ImageRequestParser from "../assets/project-req-parser.png";
+import ImageECommerce from "../assets/project-ecommerce.png";
 class project {
-    constructor(name, image, description, url, source, language, tools, note) {
+    constructor(name, image, description, url, source, language, tools, note, remark) {
         this.name = name;
         this.image = image;
         this.description = description;
@@ -15,20 +17,22 @@ class project {
         this.source = source;
         this.language = language;
         this.tools = tools;
-        this.note = note; 
+        this.note = note;
+        this.remark = remark; 
     }
 }
 
 export const ProjectList = [
     new project(
-        "Cloudinary files uploading", 
-        ImageCloudinary, 
-        "Working with files uploading web service", 
-        "https://introbond-upload.cyclic.app/",
-        "https://github.com/introbond/Lab-express-cloudinary",
+        "API: E-Commerce", 
+        ImageECommerce, 
+        "API: E-Commerce system", 
+        "https://ecommerce.introbond.repl.co/api-docs/",
+        "https://replit.com/@introbond/eCommerce?v=1",
         "JavaScript",
-        "ExpressJS, EJS veiw engine",
-        `Learn how to deal with files system.`
+        "ExpressJS, MongoDB Atlast",
+        `Learn how to interation services.`,
+        `*Automatically sleep after after a period of inactivity.`
         ),
     new project(
         "Currency Exchange", 
@@ -38,17 +42,30 @@ export const ProjectList = [
         "https://github.com/introbond/micro-app-api-currency-exchange/tree/main",
         "JavaScript",
         "ReactJS",
-        `Learn about how to fetching data from public API.`
+        `Learn about how to fetching data from public API.`,
+        ``
         ),
     new project(
-        "SHA256 Hashing service", 
+        "Microservice: SHA-256", 
         ImageCrypto, 
         "Simple SHA256 algorithm hashing function", 
         "https://introbond-crypto-ui.onrender.com/",
         "https://github.com/introbond/micro-app-crypto-ui",
         "JavaScript",
         "ExpressJS, EJS veiw engine",
-        `Learn how to deal crypto flow.`
+        `Learn how to deal crypto flow.`,
+        `*Automatically sleep after after a period of inactivity.`
+        ),
+    new project(
+        "Microservice: Request Parser", 
+        ImageRequestParser, 
+        "Simple SHA256 algorithm hashing function", 
+        "https://microservice-headerparser.introbond.repl.co/",
+        "https://replit.com/@introbond/microservice-headerparser#index.js",
+        "JavaScript",
+        "ExpressJS",
+        `Learn more about request.`,
+        `*Automatically sleep after after a period of inactivity.`
         ),
     new project(
         "Calculator", 
@@ -58,7 +75,19 @@ export const ProjectList = [
         "https://github.com/introbond/micro-app-api-currency-exchange/tree/main",
         "JavaScript",
         "ReactJS",
-        `Just a simple logic built with useState and JavaScript 'eval' trick.`
+        `Just a simple logic built with useState and JavaScript 'eval' trick.`,
+        ``
+        ),
+    new project(
+        "Microservice: Timestamp", 
+        ImageTimestamp, 
+        "Free code camp backend assignment", 
+        "https://microservice-timestamp.introbond.repl.co",
+        "https://replit.com/@introbond/microservice-timestamp#index.js",
+        "JavaScript",
+        "NodeJS",
+        ``,
+        `*Automatically sleep after after a period of inactivity.`
         ),
     new project(
         "Countries info", 
@@ -68,7 +97,8 @@ export const ProjectList = [
         "https://github.com/introbond/micro-app-contries-search-filter/tree/main",
         "JavaScript",
         "ReactJS",
-        `Fetch data from restcountries API v2 then loop with simple JavaScript array method.`
+        `Fetch data from restcountries API v2 then loop with simple JavaScript array method.`,
+        ``
         ),
     new project(
         "To-Do List", 
@@ -78,7 +108,8 @@ export const ProjectList = [
         "https://github.com/introbond/micro-app-todolist/tree/main",
         "JavaScript",
         "ReactJS",
-        `Learn about how to CRUD with React.`
+        `Learn about how to CRUD with React.`,
+        ``
         ),
     new project(
         "Quiz", 
@@ -88,6 +119,18 @@ export const ProjectList = [
         "https://github.com/introbond/micro-app-quiz/tree/main",
         "JavaScript",
         "ReactJS",
-        `Learn about React hooks (state, probs & context) with the simple structure.`
+        `Learn about React hooks (state, probs & context) with the simple structure.`,
+        ``
+        ),
+    new project(
+        "Microservice: Files Upload", 
+        ImageCloudinary, 
+        "API: file uploading service", 
+        "https://introbond-upload.cyclic.app/",
+        "https://github.com/introbond/Lab-express-cloudinary",
+        "JavaScript",
+        "ExpressJS, EJS veiw engine, Cloudinary, Cyclic",
+        `Learn how to deal with files system.`,
+        ``
         ),
 ]

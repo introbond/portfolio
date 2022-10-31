@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const ProjectItem = ({ image, name, id, url, source}) => {
+const ProjectItem = ({ image, name, id, url, source, remark}) => {
     const navigate = useNavigate();
     const openInNewTab = (e) => {
         window.open(e, '_blank', 'noopener,noreferrer');
@@ -13,7 +13,9 @@ const ProjectItem = ({ image, name, id, url, source}) => {
             <h1> {name} </h1>
             <button onClick={() => navigate("/project/" + id)}> Detail </button>
             <button onClick={() => openInNewTab(url)}> Demo </button>
-            <button onClick={() => openInNewTab(source)}> Source </button>
+            <div>
+                <small> {remark} </small>
+            </div>
         </div>
     )
 }

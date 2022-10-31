@@ -1,6 +1,3 @@
-import plc from "../assets/skill-plc.svg";
-import cyclic from "../assets/skill-cyclic.png";
-
 class skill {
     constructor(name, image, url, topic) {
         this.name = name;
@@ -26,7 +23,7 @@ export const SkillList = [
         ),
     new skill(
         "PLC", 
-        plc, 
+        "https://drive.google.com/uc?id=1ovkxWCvdA0mQdnaMe6L9-wFjk-ufRDPj", 
         "https://en.wikipedia.org/wiki/Programmable_logic_controller#Programming", 
         "language", 
         ),
@@ -94,21 +91,9 @@ export const SkillList = [
         ),
     // ========== Databases ==========
     new skill(
-        "Firebase", 
-        "https://www.vectorlogo.zone/logos/firebase/firebase-ar21.svg", 
-        "https://firebase.google.com/", 
-        "database", 
-        ),
-    new skill(
         "MongoDB", 
         "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg", 
         "https://www.mongodb.com/", 
-        "database", 
-        ),
-    new skill(
-        "Redis", 
-        "https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg", 
-        "https://redis.io", 
         "database", 
         ),
     new skill(
@@ -123,6 +108,12 @@ export const SkillList = [
         "https://www.microsoft.com/en-us/sql-server/sql-server-downloads", 
         "database", 
         ),
+    new skill(
+        "Firebase", 
+        "https://www.vectorlogo.zone/logos/firebase/firebase-ar21.svg", 
+        "https://firebase.google.com/", 
+        "database", 
+        ),
     // ========== OS ==========
     new skill(
         "Ubuntu", 
@@ -134,12 +125,6 @@ export const SkillList = [
         "RaspberryPiOS", 
         "https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg", 
         "https://www.raspberrypi.com/software/", 
-        "os", 
-        ),
-    new skill(
-        "Windows", 
-        "https://www.vectorlogo.zone/logos/microsoft/microsoft-icon.svg", 
-        "https://www.microsoft.com/en-us/windows", 
         "os", 
         ),
     // ========== DevOp & Other Tools ==========
@@ -168,33 +153,9 @@ export const SkillList = [
         "tools", 
         ),
     new skill(
-        "Apache", 
-        "https://www.vectorlogo.zone/logos/apache/apache-icon.svg", 
-        "https://www.apache.org/", 
-        "tools", 
-        ),
-    new skill(
         "Xampp", 
         "https://icons.iconarchive.com/icons/papirus-team/papirus-apps/64/xampp-icon.png", 
         "https://www.apachefriends.org/", 
-        "tools", 
-        ),
-    new skill(
-        "Cyclic", 
-        cyclic, 
-        "https://www.cyclic.sh/", 
-        "tools", 
-        ),
-    new skill(
-        "Heroku", 
-        "https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg", 
-        "https://heroku.com", 
-        "tools", 
-        ),
-    new skill(
-        "Netlify", 
-        "https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg", 
-        "https://www.netlify.com/", 
         "tools", 
         ),
     new skill(
@@ -209,8 +170,7 @@ export const SkillList = [
         "https://cloudinary.com/", 
         "tools", 
         ),
-        
-    // ========== Automation Stuff ==========
+    // ========== Automation & IOT Stuff ==========
     new skill(
         "Arduino", 
         "https://www.vectorlogo.zone/logos/arduino/arduino-icon.svg", 
