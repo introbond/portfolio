@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { ProjectList } from "../lists/ProjectList";
+import { ProjectList } from "../apis/ProjectList";
 import "../styles/ProjectDisplay.css";
 
 const ProjectDisplay = () => {

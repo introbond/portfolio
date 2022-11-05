@@ -1,13 +1,3 @@
-import ImageQuiz from "../assets/project-quiz.png";
-import ImageExchange from "../assets/project-exchange.png";
-import ImageCalculator from "../assets/project-calculator.png";
-import ImageContries from "../assets/project-contries-search.png";
-import ImageCloudinary from "../assets/project-cloudinary.png";
-import ImageTodolist from "../assets/project-todolist.png";
-import ImageCrypto from "../assets/project-hash.png";
-import ImageTimestamp from "../assets/project-timestamp.png";
-import ImageRequestParser from "../assets/project-req-parser.png";
-import ImageECommerce from "../assets/project-ecommerce.png";
 class project {
     constructor(name, image, description, url, source, language, tools, note, remark) {
         this.name = name;
@@ -25,7 +15,7 @@ class project {
 export const ProjectList = [
     new project(
         "API: E-Commerce", 
-        ImageECommerce, 
+        "https://res.cloudinary.com/dbdacfhye/image/upload/v1667634064/Portfolio/project-ecommerce.png", 
         "API: E-Commerce system", 
         "https://ecommerce.introbond.repl.co/api-docs/",
         "https://replit.com/@introbond/eCommerce?v=1",
@@ -36,7 +26,7 @@ export const ProjectList = [
         ),
     new project(
         "Currency Exchange", 
-        ImageExchange, 
+        "https://res.cloudinary.com/dbdacfhye/image/upload/v1667634065/Portfolio/project-exchange.png", 
         "Simple currency converter web application", 
         "https://introbond.github.io/micro-app-api-currency-exchange/", 
         "https://github.com/introbond/micro-app-api-currency-exchange/tree/main",
@@ -47,7 +37,7 @@ export const ProjectList = [
         ),
     new project(
         "Microservice: SHA-256", 
-        ImageCrypto, 
+        "https://res.cloudinary.com/dbdacfhye/image/upload/v1667634064/Portfolio/project-hash.png", 
         "Simple SHA256 algorithm hashing function", 
         "https://introbond-crypto-ui.onrender.com/",
         "https://github.com/introbond/micro-app-crypto-ui",
@@ -58,7 +48,7 @@ export const ProjectList = [
         ),
     new project(
         "Microservice: Request Parser", 
-        ImageRequestParser, 
+        "https://res.cloudinary.com/dbdacfhye/image/upload/v1667634064/Portfolio/project-req-parser.png", 
         "Simple SHA256 algorithm hashing function", 
         "https://microservice-headerparser.introbond.repl.co/",
         "https://replit.com/@introbond/microservice-headerparser#index.js",
@@ -69,7 +59,7 @@ export const ProjectList = [
         ),
     new project(
         "Calculator", 
-        ImageCalculator, 
+        "https://res.cloudinary.com/dbdacfhye/image/upload/v1667634064/Portfolio/project-calculator.png", 
         "Simple calculator web application", 
         "https://introbond.github.io/micro-app-simple-calculator/",
         "https://github.com/introbond/micro-app-api-currency-exchange/tree/main",
@@ -80,7 +70,7 @@ export const ProjectList = [
         ),
     new project(
         "Microservice: Timestamp", 
-        ImageTimestamp, 
+        "https://res.cloudinary.com/dbdacfhye/image/upload/v1667634065/Portfolio/project-timestamp.png", 
         "Free code camp backend assignment", 
         "https://microservice-timestamp.introbond.repl.co",
         "https://replit.com/@introbond/microservice-timestamp#index.js",
@@ -91,7 +81,7 @@ export const ProjectList = [
         ),
     new project(
         "Countries info", 
-        ImageContries, 
+        "https://res.cloudinary.com/dbdacfhye/image/upload/v1667634064/Portfolio/project-contries-info.png", 
         "Fetch information from API then filter by country name or capital name", 
         "https://introbond.github.io/micro-app-contries-search-filter/",
         "https://github.com/introbond/micro-app-contries-search-filter/tree/main",
@@ -102,7 +92,7 @@ export const ProjectList = [
         ),
     new project(
         "To-Do List", 
-        ImageTodolist, 
+        "https://res.cloudinary.com/dbdacfhye/image/upload/v1667634065/Portfolio/project-todolist.png", 
         "Simple to-do list web application", 
         "https://introbond.github.io/micro-app-todolist/",
         "https://github.com/introbond/micro-app-todolist/tree/main",
@@ -113,7 +103,7 @@ export const ProjectList = [
         ),
     new project(
         "Quiz", 
-        ImageQuiz, 
+        "https://res.cloudinary.com/dbdacfhye/image/upload/v1667634064/Portfolio/project-quiz.png", 
         "Simple quiz web application", 
         "https://introbond.github.io/micro-app-quiz/", 
         "https://github.com/introbond/micro-app-quiz/tree/main",
@@ -124,7 +114,7 @@ export const ProjectList = [
         ),
     new project(
         "Microservice: Files Upload", 
-        ImageCloudinary, 
+        "https://res.cloudinary.com/dbdacfhye/image/upload/v1667634064/Portfolio/project-cloudinary.png", 
         "API: file uploading service", 
         "https://introbond-upload.cyclic.app/",
         "https://github.com/introbond/Lab-express-cloudinary",

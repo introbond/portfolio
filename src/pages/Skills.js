@@ -1,40 +1,40 @@
 import React from "react";
-import Skills from "../components/Skills";
+import SkillsFilter from "../components/SkillsFilter";
 import "../styles/Home.css";
 
-const SkillsDisplay = () => {
+const Skills = () => {
     return (
         <div className="home">
             <div className="skills">  
                 <h3> S K I L L S </h3>
                 <ol className="list">
-                    <li className="item">
+                    <li>
                         <b> Programming Languages </b>
-                        <Skills topic = "language"/>
+                        <SkillsFilter topic = "language"/>
                     </li>
-                    <li className="item">
+                    <li>
                         <b> Frontend </b>
-                        <Skills topic = "frontend"/>
+                        <SkillsFilter topic = "frontend"/>
                     </li>
-                    <li className="item">
+                    <li>
                         <b> Backend </b>
-                        <Skills topic = "backend"/>
+                        <SkillsFilter topic = "backend"/>
                     </li>
-                    <li className="item">
+                    <li>
                         <b> Databases </b>
-                        <Skills topic = "database"/>
+                        <SkillsFilter topic = "database"/>
                     </li>
-                    <li className="item">
+                    <li>
                         <b> DevOps & Other Tools </b>
-                        <Skills topic = "tools"/>
+                        <SkillsFilter topic = "tools"/>
                     </li>
-                    <li className="item">
+                    <li>
                         <b> OS </b>
-                        <Skills topic = "os"/>
+                        <SkillsFilter topic = "os"/>
                     </li>
-                    <li className="item">
+                    <li>
                         <b> Automation & IOT Stuff </b>
-                        <Skills topic = "automation"/>
+                        <SkillsFilter topic = "automation"/>
                     </li>
                 </ol>
             </div>
@@ -42,4 +42,4 @@ const SkillsDisplay = () => {
     )
 }
 
-export default SkillsDisplay;
+export default Skills;

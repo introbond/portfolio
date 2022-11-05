@@ -1,0 +1,75 @@
+.cirtifications {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #3e497a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.cirtificationList {
+  width: 70vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+/* MENU ITEM STYLING */
+.cirtification {
+  border-radius: 10px;
+  width: 400px;
+  height: 300px;
+  margin-bottom: 55px;
+  box-shadow: 0px 3px 15px rgba(58, 58, 58, 0.2);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.cirtification:hover {
+  transform: scale(1.02);
+  filter: brightness(101%);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.1s ease-in;
+  cursor: pointer;
+}
+.cirtification .bgImage {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 290px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 1550px) {
+  .cirtificationList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .cirtificationList {
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .cirtificationList {
+    width: 100%;
+  }
+  .cirtificationItem {
+    width: 400px;
+    height: 300px;
+  }
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}

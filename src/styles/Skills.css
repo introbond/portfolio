@@ -1,4 +1,9 @@
+.skills h3 {
+    font-size: 40px;
+    color: #3e497a;
+}
 .skills {
+    font-size: 20px;
     width: 100%;
     height: auto;
     display: flex;
@@ -17,11 +22,15 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     place-items: center;
   }
-.skill-icon {
-    margin: 5px;
+.skills .list {
+    list-style: none;
+    width: 60%;
+}
+.skill {
+    margin-bottom: 15px;
     background: none;
 }
-.skill-icon button {
+.skill button {
     cursor: pointer;
     outline: none;
     border-radius: 50%;
@@ -30,7 +39,7 @@
     width: 70px;
     height: auto;
 }
-.skill-icon  button:hover {
+.skill button:hover {
     filter: brightness(110%);
     transition: 0.1s ease-in;
     transform: scale(1.1);

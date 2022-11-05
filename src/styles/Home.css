@@ -1,19 +1,24 @@
 .home {
-    width: 100%;
-    align-items: center;
-    font-family: "Arial", sans-serif;
-    color: #3e497a;
+  width: 100%;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: #3e497a;
+}
+.about h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  color: whitesmoke;
 }
 .about {
     width: 100%;
-    height: calc(110vh - 10px);
+    height: calc(110vh - 20px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: #21325e;
-    color: #f0f0f0;
+    color: whitesmoke;
 }
 .about img {
   width: 180px;
@@ -23,15 +28,9 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
-.about h2 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 55px;
-    color: whitesmoke;
-    height: 50px;
-}
 .about .prompt {
     margin-top: 10px;
-    width: 40%;
+    width: 45%;
     font-size: 25px;
 }
 .prompt svg {
@@ -39,25 +38,7 @@
     margin: 5px;
     color: whitesmoke;
 }
-.skills {
-    font-size: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.skills h3 {
-    font-size: 40px;
-    color: #3e497a;
-}
-.skills .list {
-    list-style: none;
-    width: 60%;
-}
-.list span {
-    font-size: 20px;
-}
+
 @media only screen and (max-width: 600px) {
   .about h2 {
      font-size: 30px;
@@ -76,13 +57,20 @@
   .skills h2 {
     font-size: 30px;
   }
+  .socialMedia svg {
+    font-size: 20px;
+  }
 }
-.item {
-  margin-bottom: 15px;
+@media only screen and (max-height: 500px) {
+  .about img {
+    width: 0px;
+    height: 0px;
+  }
 }
+
 .socialMedia svg {
   color: whitesmoke;
-  margin: 20px;
+  margin-top: 20px;
   font-size: 40px;
   cursor: pointer;
 }
@@ -91,11 +79,6 @@
   transform: scale(1.1);
   transition: 0.1s ease-in;
   color: lightyellow;
-}
-@media only screen and (max-width: 600px) {
-  .socialMedia svg {
-    font-size: 20px;
-  }
 }
 @keyframes fadeInAnimation {
   0% {

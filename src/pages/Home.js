@@ -15,7 +15,7 @@ const Home = () => {
                 <img src={ImageProfile} alt="profile"/>
                 <h2> Hi, I am Puritat Chamart.</h2>
                 <div className="prompt">
-                    <p> I do open-source. </p>
+                    <p> Backend Developer </p>
                     <p> Clean, simple & high-quality code <br/> always sparks joy in my blood. </p>
                 </div>
                 <Typewriter

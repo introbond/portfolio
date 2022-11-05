@@ -55,9 +55,7 @@ const Experience = () => {
                     <h3 className="vertical-timeline-element-title"> Synergetech Co., Ltd., Nonthaburi, Thailand </h3>
                     <p> Role: Automation System Engineer </p>
                     <p> Responsibilities: Designed, developed, debugged, deployed & delivered automation projects (especially automated batch control system)</p>
-                    <p> &emsp; - PLC (Low code platform for device controller) </p>
-                    <p> &emsp; - HMI & SCADA (UI for industrial automation stuff) </p>
-                    <p> &emsp; - Database for ERP communication purposes</p>
+                    <p> &emsp; - PLC, SCADA & Database programming </p>
                     <p> &emsp; - Implement analog signals, services, APIs, devices & other 3rd party integrations (by any protocol of choice)</p>
                     <p> Product Specialist: </p>
                     <p> &emsp; - Rockwell Automation </p>
@@ -68,22 +66,30 @@ const Experience = () => {
                 
                 <VerticalTimelineElement 
                     className="vertical-timeline-elemt--education"
-                    date="Jan 2022 - Present"
+                    date="Jan 2022 - Nov-2022"
                     icon={<IconInt />}
                     iconStyle={{background: "#3e497a", color: "#fff"}}
                 >
                     <h3 className="vertical-timeline-element-title"> Self-learning: Software Development </h3>
                     <p> Q2: </p>
-                    <p> &emsp; - Traditional system programming practice. </p>
-                    <p> &emsp; - Laser focus on logic, loop, data structure & algorithm. </p>
-                    <p> &emsp; - Built blockchain's API mobile app monitoring using Google cloud. </p>
+                    <p> &emsp; - Traditional system programming practice. Laser focus on logic, loop, data structure & algorithm. </p>
+                    <p> &emsp; - Built blockchain's data monitoring app using Google cloud. </p>
                     <p> Q3: </p>
-                    <p> &emsp; - Start using git & GitHub. </p>
-                    <p> &emsp; - Start learning web development tools, libraries & frameworks.(JavaScript stack - TypeScript, React.js, Node.js) </p>
+                    <p> &emsp; - Start using git & GitHub. Start learning web development tools, libraries & frameworks.(JavaScript stack - TypeScript, React.js, Node.js & express.js)</p>
                     <p> Q4: </p>
-                    <p> &emsp; - Become the better backend developer. </p>
-                    <p> &emsp; - Pushing more open-source projects. </p>
-                    <p> &emsp; - Further down the road, keep learning.  </p>
+                    <p> &emsp; - Start learning python especially Django framework.</p>
+                    <p> &emsp; - Become the better backend developer. Pushing more open-source projects. Further down the road, keep learning.</p>
+                </VerticalTimelineElement>
+
+                <VerticalTimelineElement 
+                    className="vertical-timeline-elemt--education"
+                    date="Nov 2022 - Present"
+                    icon={<IconWork />}
+                    iconStyle={{background: "royalblue", color: "#fff"}}
+                >
+                    <h3 className="vertical-timeline-element-title"> Swift Dynamics Co., Ltd., Bangkok, Thailand </h3>
+                    <p> Role: Backend Developer </p>
+                    <p> Responsibilities: Designed, developed, debugged, deployed & delivered web services under agile methology.</p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
         </div>

@@ -1,17 +1,17 @@
 import React from "react";
 
-const SkillItem = ({ image, name, url}) => {
+const SkillItem = ({...skill}) => {
     const openInNewTab = (e) => {
         window.open(e, '_blank', 'noopener,noreferrer');
     };
     
     return (
-        <div className="skill-icon">
+        <div className="skill">
             <div>
-                <button onClick={() => openInNewTab(url)}> <img src={image} alt={name} /> </button>
+                <button onClick={() => openInNewTab(skill.url)}> <img src={skill.image} alt={skill.name}/></button>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default SkillItem;

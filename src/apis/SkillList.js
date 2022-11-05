@@ -21,12 +21,6 @@ export const SkillList = [
         "https://www.typescriptlang.org/", 
         "language", 
         ),
-    new skill(
-        "PLC", 
-        "https://drive.google.com/uc?id=1ovkxWCvdA0mQdnaMe6L9-wFjk-ufRDPj", 
-        "https://en.wikipedia.org/wiki/Programmable_logic_controller#Programming", 
-        "language", 
-        ),
     // ========== Backend ==========
     new skill(
         "NodeJS", 
