@@ -52,6 +52,9 @@
   }
 }
 @media only screen and (max-width: 1050px) {
+  .cirtifications {
+    font-size: 15px;
+  }
   .cirtificationList {
     grid-template-columns: 1fr;
   }

@@ -2,7 +2,6 @@ import React from "react";
 import IconGithub from "@material-ui/icons/GitHub";
 import Typewriter from 'typewriter-effect';
 import "../styles/Home.css";
-import ImageProfile from "../assets/profile.jpg"
 
 const Home = () => {
     const openInNewTab = (e) => {
@@ -12,10 +11,9 @@ const Home = () => {
     return (
         <div className="home">
             <div className="about">
-                <img src={ImageProfile} alt="profile"/>
-                <h2> Hi, I am Puritat Chamart.</h2>
+                <img src="https://res.cloudinary.com/dbdacfhye/image/upload/v1667634064/Portfolio/profile.png" alt="profile"/>
                 <div className="prompt">
-                    <p> Backend Developer </p>
+                    <h2> Hi, I am Puritat Chamart. </h2> <h3> Software Engineer: Backend Developer </h3>
                     <p> Clean, simple & high-quality code <br/> always sparks joy in my blood. </p>
                 </div>
                 <Typewriter
