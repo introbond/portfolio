@@ -56,28 +56,27 @@ const Experience = () => {
                     <p> Role: Automation System Engineer </p>
                     <p> Responsibilities: Designed, developed, debugged, deployed & delivered automation projects (especially automated batch control system)</p>
                     <p> &emsp; - PLC, SCADA & Database programming </p>
-                    <p> &emsp; - Implement analog signals, services, APIs, devices & other 3rd party integrations (by any protocol of choice)</p>
-                    <p> Product Specialist: </p>
-                    <p> &emsp; - Rockwell Automation </p>
-                    <p> &emsp; - Schneider Electric Automation: Unity Pro series </p>
-                    <p> &emsp; - AVEVA: Wonderware SystemPlatform, InTouch & InBatch </p>
-                    <p> &emsp; - VMware: Workstation & ESXi </p>
+                    <p> &emsp; - Implement analog signals, digital devices, I/O server & other 3rd party integrations by any protocol of choice </p>
+                    <p> Specializes in: </p>
+                    <p> &emsp; - PLC: Rockwell & Schneider Electric </p>
+                    <p> &emsp; - HMI & SCADA: WSP, InTouch & InBatch </p>
+                    <p> &emsp; - Virtual Env (Windows-based): VMware Workstation & ESXi </p>
                 </VerticalTimelineElement>
                 
                 <VerticalTimelineElement 
                     className="vertical-timeline-elemt--education"
-                    date="Jan 2022 - Nov-2022"
+                    date="Jan 2022 - Nov 2022"
                     icon={<IconInt />}
                     iconStyle={{background: "#3e497a", color: "#fff"}}
                 >
                     <h3 className="vertical-timeline-element-title"> Self-learning: Software Development </h3>
                     <p> Q2: </p>
                     <p> &emsp; - Traditional system programming practice. Laser focus on logic, loop, data structure & algorithm. </p>
-                    <p> &emsp; - Built blockchain's data monitoring app using Google cloud. </p>
+                    <p> &emsp; - Built blockchain's data monitoring mobile application using Google cloud environment. </p>
                     <p> Q3: </p>
                     <p> &emsp; - Start using git & GitHub. Start learning web development tools, libraries & frameworks.(JavaScript stack - TypeScript, React.js, Node.js & express.js)</p>
                     <p> Q4: </p>
-                    <p> &emsp; - Start learning python especially Django framework.</p>
+                    <p> &emsp; - Start learning python for backend services especially Django framework. Start learning software development lifecycle, CI/CD tools, tech & workflow.</p>
                     <p> &emsp; - Become the better backend developer. Pushing more open-source projects. Further down the road, keep learning.</p>
                 </VerticalTimelineElement>
 
@@ -89,7 +88,10 @@ const Experience = () => {
                 >
                     <h3 className="vertical-timeline-element-title"> Swift Dynamics Co., Ltd., Bangkok, Thailand </h3>
                     <p> Role: Backend Developer </p>
-                    <p> Responsibilities: Designed, developed, debugged, deployed & delivered web services under agile methology.</p>
+                    <p> Responsibilities: <br/>
+                        &emsp; -Focus on design & develop backend services. <br/>
+                        &emsp; -Co-work with peer engineers in coding & code reviews. <br/>
+                    </p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
         </div>
