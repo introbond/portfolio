@@ -60,7 +60,7 @@ const Experience = () => {
                     <p> Specializes in: </p>
                     <p> &emsp; - PLC: Rockwell & Schneider Electric </p>
                     <p> &emsp; - HMI & SCADA: WSP, InTouch & InBatch </p>
-                    <p> &emsp; - Virtual Env (Windows-based): VMware Workstation & ESXi </p>
+                    <p> &emsp; - Virtual Environment: VMware Workstation & ESXi </p>
                 </VerticalTimelineElement>
                 
                 <VerticalTimelineElement 
