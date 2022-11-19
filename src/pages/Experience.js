@@ -74,10 +74,10 @@ const Experience = () => {
                     <p> &emsp; - Traditional system programming practice. Laser focus on logic, loop, data structure & algorithm. </p>
                     <p> &emsp; - Built blockchain's data monitoring mobile application using Google cloud environment. </p>
                     <p> Q3: </p>
-                    <p> &emsp; - Start using git & GitHub. Start learning web development tools, libraries & frameworks.(JavaScript stack - TypeScript, React.js, Node.js & express.js)</p>
+                    <p> &emsp; - Start using git & GitHub. Start learning web development tools, libraries & frameworks.(JavaScript stack - TypeScript, React.js, Node.js & Express.js)</p>
                     <p> Q4: </p>
-                    <p> &emsp; - Start learning python for backend services especially Django framework. Start learning software development lifecycle, CI/CD tools, tech & workflow.</p>
-                    <p> &emsp; - Become the better backend developer. Pushing more open-source projects. Further down the road, keep learning.</p>
+                    <p> &emsp; - Start learning Python for backend services. Start learning software lifecycle, CI/CD tools, tech & workflow.</p>
+                    <p> &emsp; - Become a better backend developer. Pushing more open-source projects. Further down the road, keep learning.</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement 
@@ -89,9 +89,12 @@ const Experience = () => {
                     <h3 className="vertical-timeline-element-title"> Swift Dynamics Co., Ltd., Bangkok, Thailand </h3>
                     <p> Role: Backend Developer </p>
                     <p> Responsibilities: <br/>
-                        &emsp; -Focus on design & develop backend services. <br/>
+                        &emsp; -Fully focus on design & develop many type of backend services, logics, databases & APIs. <br/>
                         &emsp; -Co-work with peer engineers in coding & code reviews. <br/>
                     </p>
+                    <p> Specializes in: </p>
+                    <p> &emsp; - Languages: JavaScript, Python</p>
+                    <p> &emsp; - Backend Stacks: Node.js, Express.js, Django REST</p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
         </div>

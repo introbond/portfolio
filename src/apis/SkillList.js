@@ -26,12 +26,12 @@ export const SkillList = [
         "https://www.python.org/", 
         "language", 
         ),
-    new skill(
-        "GraphQl", 
-        "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg", 
-        "https://graphql.org/", 
-        "language", 
-        ),
+    // new skill(
+    //     "GraphQl", 
+    //     "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg", 
+    //     "https://graphql.org/", 
+    //     "language", 
+    //     ),
     new skill(
         "Shell", 
         "https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg", 
@@ -173,12 +173,6 @@ export const SkillList = [
         "GitHub", 
         "https://www.vectorlogo.zone/logos/github/github-icon.svg", 
         "https://github.com/", 
-        "tools", 
-        ),
-    new skill(
-        "GitLab", 
-        "https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg", 
-        "https://about.gitlab.com/", 
         "tools", 
         ),
     new skill(

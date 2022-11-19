@@ -14,7 +14,7 @@ const Home = () => {
             <div className="about">
                 <img src="https://res.cloudinary.com/dbdacfhye/image/upload/v1667634064/Portfolio/profile.png" alt="profile"/>
                 <div className="prompt">
-                    <h2> Hi, I am Puritat Chamart. </h2> <h3> Software Engineer: Backend Developer </h3>
+                    <h2> Hi, I am Puritat Chamart. </h2> <h3> Backend Developer </h3>
                     <p> Clean, simple & high-quality code <br/> always sparks joy in my blood. </p>
                 </div>
                 <Typewriter
